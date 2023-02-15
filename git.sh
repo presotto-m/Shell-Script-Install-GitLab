@@ -218,3 +218,11 @@ main ()
 }
 
 main
+
+# Instalando GitLab 
+apt install gitlab-ce -y
+
+# Senha provisoria
+echo "Senha provisoria abaixo:"
+cat /etc/gitlab/initial_root_password
+
