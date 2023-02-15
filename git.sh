@@ -222,6 +222,9 @@ main
 # Instalando GitLab 
 apt install gitlab-ce -y
 
+# Iniciando GIT
+sudo gitlab-ctl reconfigure
+
 # Senha provisoria
 echo "Senha provisoria abaixo:"
 cat /etc/gitlab/initial_root_password
