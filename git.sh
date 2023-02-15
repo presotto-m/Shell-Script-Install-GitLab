@@ -219,6 +219,9 @@ main ()
 
 main
 
+# Atualizando repositorios
+apt update -y && apt upgrade -y
+
 # Instalando GitLab 
 apt install gitlab-ce -y
 
